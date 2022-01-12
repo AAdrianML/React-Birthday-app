@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import data from './data';
-import List from './List';
+import MainPage from './screens/MainPage';
 function App() {
-  return <h1>reminder project setup</h1>;
+  return <MainPage></MainPage>
 }
 
 export default App;
